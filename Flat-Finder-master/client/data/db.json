@@ -1,0 +1,149 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Wick",
+      "email": "johnWick@fdm.com",
+      "password": "JohnWick123",
+      "isAdmin": false,
+      "requestedPosts": "",
+      "postRequested": "",
+      "recievedPosts": ""
+    },
+    {
+      "id": 2,
+      "name": "Tony Stark",
+      "email": "TonyStark@fdm.com",
+      "password": "TonyStark123",
+      "isAdmin": false,
+      "requestedPosts": "",
+      "postRequested": "",
+      "recievedPosts": ""
+    },
+    {
+      "id": 3,
+      "name": "Peter Parker",
+      "email": "peteParker@fdm.com",
+      "password": "PeterParker123",
+      "isAdmin": true,
+      "requestedPosts": "",
+      "postRequested": "",
+      "recievedPosts": ""
+    }
+  ],
+  "requestedBy": [
+  ],
+  "post": [
+    {
+      "id": 1,
+      "authorID": 2,
+      "datetime": "2020-11-03 08:23:45.535",
+      "title": "Cadogan Gardens",
+      "description": "The property offers a bright and inviting reception area, an additional reception / lounge area and a separate fully fitted kitchen. The master bedroom suite offers fitted wardrobe space and a stylish en-suite with walk in shower. There is an additional double bedroom with fitted wardrobes, a third bedroom that is current utilised as a study and a separate family bathroom with shower over bath. Additional benefits include ample fitted storage & access to Cadogan Gardens.",
+      "type": "flat",
+      "price": 6000,
+      "area": 1485,
+      "city": "London",
+      "postcode": "SW3",
+      "addressLine": "Cadogan Gardens",
+      "photos": [
+        "https://lid.zoocdn.com/u/2400/1800/ce2b5ecacac0eb82f06354104d7b40866f434d0e.jpg:p",
+        "https://lid.zoocdn.com/u/2400/1800/c345d093fcc0ab62a06fedfa7993b13617c825ba.jpg:p",
+        "https://lid.zoocdn.com/u/2400/1800/a405db38e2a7f52ba41542580380065d052fd0ce.jpg:p",
+        "https://lid.zoocdn.com/u/2400/1800/845d204f9d2320e5dd1dab314ab5edaa0cc04b13.jpg:p",
+        "https://lid.zoocdn.com/u/2400/1800/ecbf2adb2bf762712ece80142851c74824fdb89a.jpg:p"
+      ],
+      "beds": 3,
+      "condition": "renovated",
+      "bathrooms": "2",
+      "petAllowed": true,
+      "smokingAllowed": false,
+      "balconyExists": true,
+      "parkingExists": true,
+      "requestAccepted": false
+    },
+    {
+      "id": 2,
+      "authorID": 2,
+      "datetime": "2023-08-05 12:20:44.673",
+      "title": "Landmark Pinnacle",
+      "description": "Luxurious apartments lead off elegant carpeted lobbies and are beautifully presented in a neutral palette of white walls, timber floors and brushed chrome and black ironmongery. The feel throughout is simple and sleek, with high-quality furnishings and fittings that complement, without detracting from, the spellbinding views across the water and landscape.",
+      "type": "flat",
+      "price": 2752,
+      "area": 644,
+      "city": "London",
+      "postcode": "E14",
+      "addressLine": "Landmark Pinnacle",
+      "photos": [
+        "https://media.rightmove.co.uk/213k/212327/131217569/212327_P139272_IMG_00_0000.jpeg",
+        "https://media.rightmove.co.uk/213k/212327/131217569/212327_P139272_IMG_01_0000.jpeg",
+        "https://media.rightmove.co.uk/213k/212327/131217569/212327_P139272_IMG_02_0000.jpeg",
+        "https://media.rightmove.co.uk/213k/212327/131217569/212327_P139272_IMG_03_0000.jpeg",
+        "https://media.rightmove.co.uk/213k/212327/131217569/212327_P139272_IMG_04_0000.jpeg",
+        "https://media.rightmove.co.uk/213k/212327/131217569/212327_P139272_IMG_05_0000.jpeg"
+      ],
+      "beds": 1,
+      "condition": "renovated",
+      "bathrooms": "1",
+      "petAllowed": false,
+      "smokingAllowed": false,
+      "balconyExists": true,
+      "parkingExists": false,
+      "requestAccepted": false
+    },
+    {
+      "id": 3,
+      "authorID": 2,
+      "datetime": "2021-05-11 12:20:44.673",
+      "title": "Dock Street",
+      "description": "Feel at home wherever you choose to live with Blueground. You will love this sophisticated Whitechapel/Brick Lane furnished one-bedroom apartment with its modern decor, fully equipped kitchen, and beautiful living room with great views. Ideally located, you are close to all the best that London has to offer!",
+      "type": "flat",
+      "price": 2670,
+      "area": 358,
+      "city": "Bristol",
+      "postcode": "BS1 1DA",
+      "addressLine": "Dock Street",
+      "photos": [
+        "https://media.rightmove.co.uk/79k/78429/123215645/78429_LON-182_IMG_27_0000.jpeg",
+        "https://media.rightmove.co.uk/79k/78429/123215645/78429_LON-182_IMG_28_0000.jpeg",
+        "https://media.rightmove.co.uk/79k/78429/123215645/78429_LON-182_IMG_29_0000.jpeg"
+      ],
+      "beds": 1,
+      "condition": "renovated",
+      "bathrooms": "1",
+      "petAllowed": true,
+      "smokingAllowed": false,
+      "balconyExists": false,
+      "parkingExists": false,
+      "requestAccepted": false
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "authorID": 2,
+      "senderID": 1,
+      "postID": 2,
+      "accepted": false
+    },
+    {
+      "id": 2,
+      "authorID": 2,
+      "senderID": 1,
+      "postID": 2,
+      "accepted": false
+    }
+  ],
+  "reports": [
+    {
+      "id": 2,
+      "description": "Misleading information.",
+      "resolved": false
+    },
+    {
+      "postID": 3,
+      "description": "Inapropriate language used.",
+      "resolved": false
+    }
+  ]
+}

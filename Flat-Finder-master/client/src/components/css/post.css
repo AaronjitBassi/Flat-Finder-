@@ -1,0 +1,90 @@
+/*POST HEADER*/
+.postDiv{
+  padding: 0% 10%;
+}
+
+.carouselColumn{
+  background-color: #f1f1f1;
+}
+
+.carouselPost{
+  margin: 5% 3% 7% 5%;
+}
+
+.postDetails {
+  background-color: #f1f1f1;
+  padding: 3%;
+}
+
+
+.postDetails {
+  display: flex;
+  flex-direction: column;
+  align-items:first baseline;
+  justify-content: top;
+}
+
+.postTitle{
+  font-size: calc(15px + 0.390625vw);
+}
+
+.priceDisplay{
+  font-size: calc(30px + 0.390625vw);
+  margin-bottom: 10%;
+}
+
+#mutedText{
+  font-size: calc(12px + 0.6vw);
+  color: rgba(0, 0, 0, 0.406) ;
+}
+
+.textHeader{
+  font-weight: 450;
+  font-size: calc(12px + 0.5vw);
+}
+
+.mainText{
+  font-weight: 450;
+  font-size: calc(12px + 0.5vw);
+
+}
+
+.subTitle{
+  font-size: calc(20px + 0.390625vw);
+  padding-top: 20px ;
+}
+
+.label{
+  font-size: calc(15px + 0.390625vw);
+  padding-top: 15px ;
+}
+
+/*TABLE OF PREFERENCES*/
+.details-table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: calc(12px + 0.390625vw);
+}
+
+.details-table th,
+.details-table td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.details-table th {
+  background-color: #f5f5f5;
+}
+
+.details-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.details-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+

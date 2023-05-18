@@ -1,0 +1,169 @@
+body {
+    border-top: 3px solid rgb(0, 166, 255);
+    overflow-y: scroll;
+  }
+
+.logo {
+    height: 70px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
+.logo:hover {
+    filter: rgba(252, 252, 252, 0.468) brightness(1);
+}
+
+/* .center:first-of-type {
+    bottom border elements i.e. for listings */
+    /* border-bottom: none !important;
+} */
+
+/* .title-color{
+
+} */
+
+.navbar-links .dropdown-menu {
+    background-color: #030020e9;
+    border: 1px solid #3e3e3e;
+    border-radius: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .navbar-links   .dropdown-item {
+    color: #ffffff;
+  }
+  
+  .navbar-links   .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #3e00b170;
+  }
+
+
+/* .form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-control {
+    flex-grow: 1;
+    margin-right: 0 !important;
+  } */
+
+  /* search bar properties */
+.form-control {
+  /* width: 250px; */
+  color: rgb(56, 27, 74);
+}
+
+.navbar{
+    /* fdmgroup border colour */
+    background-image: linear-gradient(to right, #0d00ff12, #0000ff25);
+    
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to left, #45007d, #000066);
+    border-image-slice: 1;
+}
+
+/* these properties assure the link elements are centered */
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar-links .navbar_section{
+    font-weight: bold; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+    display: flex; 
+    align-items: center;
+    height: 100%;
+}
+
+/* navbar link hover effects */
+.navbar_section:hover {
+    color: #686868; 
+    cursor: pointer;
+  }
+
+  .navbar-links .navbar_section {
+    position: relative;
+  }
+  
+  .navbar-links .navbar_section:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 45%;
+    bottom: -2.23em;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.3em 0.3em 0.3em;
+    border-color: transparent transparent #fff transparent;
+  }
+/**********************************/
+  
+
+
+/* these properties assure the link elements are centered */
+.navbar-nav {
+    display: flex; 
+    align-items: center;
+    height: 100%;
+  }
+
+.navbar-collapse {
+    justify-content: flex-end;
+  }
+ 
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+  }
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 10%;
+  }
+
+.navbar-nav a {
+    text-decoration: none;
+}
+
+/* change this  */
+.bg-primary#azure {
+    background-color: rgba(161, 200, 239, 0.745) !important;
+}
+
+/* .listing-container .dropdown-menu.show {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    z-index: 1000;
+  } */
+
+  .listing-container .dropdown-menu {
+    background-color: rgba(203, 203, 203, 0.952);
+    border: none;
+    padding: 10px;
+    width: 225px;
+
+  }
+  .listing-container .dropdown-item {
+    color: black;
+  }
+  
+  .listing-container  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #ffffff70;
+  }
